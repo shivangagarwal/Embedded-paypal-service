@@ -1,0 +1,6 @@
+This is the bare minimum code for the service layer which is required to initiate the Embedded flow payment in the Paypal
+
+the usage of the code is as follows:
+
+paypal_init = PaypalAdaptivePayment()
+paypal_init.initialize_payment('value','cancel_url','return_url')
